@@ -1,0 +1,19 @@
+{
+  "name": "aws-dynamodb-migration",
+  "version": "1.0.0",
+  "description": "A utility for migrating data to and from dynamodb",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "export": "node src/index.js --fromTableToJson",
+    "import": "node src/index.js --fromJsonToTable"
+  },
+  "author": "Fearless",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.1094.0",
+    "lodash": "^4.17.21",
+    "minimist": "^1.2.5",
+    "sleep-promise": "^5.1.0"
+  }
+}
