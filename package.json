@@ -11,9 +11,9 @@
   "author": "Fearless",
   "license": "ISC",
   "dependencies": {
-    "aws-sdk": "^2.1094.0",
+    "aws-sdk": "^2.1106.0",
     "lodash": "^4.17.21",
-    "minimist": "^1.2.5",
+    "minimist": "^1.2.6",
     "sleep-promise": "^5.1.0"
   }
 }
